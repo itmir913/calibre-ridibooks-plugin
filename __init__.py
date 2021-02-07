@@ -8,8 +8,8 @@ __copyright__ = 'Jin, Heonkyu <heonkyu.jin@gmail.com>'
 __docformat__ = 'restructuredtext en'
 
 import time
-from urllib import quote
-from Queue import Queue, Empty
+from urllib.parse import quote
+from queue import Queue, Empty
 
 from lxml.html import fromstring, tostring
 
